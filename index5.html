@@ -5,32 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>해보기</title>
     <style>
-        .container{
-        display:flex ;
-        
+        .div-flex{
+            display:flex;
         }
+        .content{
+            width:70%;
+        }
+        .div-title{
+            display:flex;
+        }
+        .div-title p, h4{
+            margin:0;
+        }
+        .div-title img{
+            border-radius: 500px;
+        }
+        .container{
+            width:80%;
+            margin:auto;
+        }
+        .div-img{
+              width:30%;
+              display:flex;
+              justify-content: end;
+              align-items: center;
+        }
+    
     </style>
 </head>
 <body>
     <div class="container">
-        <div>
-            <div style="display:flex;"><img src="cat.png" width="10%">
-                <div>
-                    <h4>까투리</h4>
-                    <h6>1 시간전</h6>
-                </div>
-            </div>
+        <div class="div-flex">
+        <div class="content">
+         <div class="div-title">
+        <img src="./cat.png" width="50px" height="50px">
+         <div>
+            <h4>까투리</h4>
+            <p class="write-time">1시간 전</p>   
+        </div>
+    </div>
+    <h2>메밀꽃 필 무렵</h2>
+    <p>메밀꽃 필 무렵은 1936년 《조광》지에 발표된 이효석의 단편소설이다. 
+        소설의 주 무대는 강원도 평창군 봉평면 일대이며, 마치 시처럼 서정적인 표현이 다수 사용되기도 했다.
+        원제는 《모밀꽃 필 무렵》이나, 현행 맞춤법 규정에 따라 표기한다.
+    </p>
+    </div>
+    <div class="div-img">
+        <img src="./flower.png" width="200px" height="200px">
+        </div>
+        </div>
+        <hr>
 
-            <div><h2>메밀꽃 필 무렵</h2>
-            <p>이효석 작가의 단편소설로 1936년 10월[1] 잡지 <조광(조광)>(조선일보사 
-                발행)에 "메밀꽃 필 무렵"이라는 이름으로 수록되었지만, 이후 표준어가 
-                정립되고나서 "메밀꽃 필 무렵"으로 정착되었다.</p>
-            </div>
-        </div> 
-      <div><img src="flower.png"> </div>
+        
 
     </div>
-    <hr>
     
 </body>
 </html>
