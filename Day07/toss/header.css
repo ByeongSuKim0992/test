@@ -1,0 +1,7 @@
+header{
+   width: 100vw;
+   position: fixed;
+   top: 0px;
+   background-color: white;
+   border-bottom: 1ps solid rgba(0, 27, 55, 0.1); 
+}
